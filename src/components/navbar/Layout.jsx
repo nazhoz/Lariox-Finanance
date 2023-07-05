@@ -152,10 +152,12 @@ const Layout = () => {
       <img width={25} height={25} src={pict} alt="" />
       <Link className='nav-emi-text' to='Partners'> Partners</Link>
       </div>
+      
       <div  className='nav-emi'>
       <img src="https://www.bajajfinserv.in/MyAccountAsset/Login/images/prof.svg" alt="" />
       <Link className='nav-emi-text' to='SignIn'> SignIn</Link>       
       </div>
+
     </div>
    </ul>  
    <div className='dropdown-main-content'>

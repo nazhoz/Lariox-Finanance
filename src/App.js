@@ -1,5 +1,6 @@
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import './App.css';
+import './components/home/Home.css'
 import Layout from './components/navbar/Layout';
 import Home from './components/home/Home';
 import EmiPage from './components/emipage/EmiPage';

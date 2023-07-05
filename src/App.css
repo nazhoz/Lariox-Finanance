@@ -15,11 +15,11 @@
   align-items: center;
   height: 70px;
 }
-/* .nav-dropdown-menu{
+.nav-dropdown-menu{
   position: fixed;
   top: 0;
   width: 100%;
-} */
+}
 .nav-bar-searchbar{
   background: none;
   outline: none;
@@ -86,7 +86,6 @@
 }
 .dropdown-menu{
   background-color: rgb(34, 34, 100);
-  z-index: -1;
 }
 .dropdown-main-content{
   background-color: rgb(34, 34, 100);

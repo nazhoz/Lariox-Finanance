@@ -1,0 +1,142 @@
+.home-person-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;   
+}
+.home-first-content{
+    width: 78%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-credit-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 2px black;
+    width: 340px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFmi77veFj9u6Zb_UGTwLaAbRr4JUHF_vyqg&usqp=CAU);
+
+}
+.home-debit-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 2px black;
+    width: 340px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf8NalGNySgEa-FMEi_ZDc1VRr-OWFHN6iVg&usqp=CAU);
+}
+.home-cre-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 0 0 2px black;
+    width: 340px;
+    height: 180px;
+    border-radius: 5px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiM_4EtX4RHr5H_QmWf6BYtlO6tiA-Ej1OA&usqp=CAU);
+    
+}
+
+.home-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.home-main-page{
+    background-color: rgba(221, 221, 221, 0.521);
+    width: 100%;
+
+}
+.home-person-img{
+
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1px gray;
+}
+.home-person-text{
+    color:white;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.home-text-loan{
+    color: white;
+    margin-left: 1rem;
+    font-size: 17px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.home-person-imgs{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(129, 129, 129, 0.411);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 1px rgba(255, 255, 255, 0.418);
+}
+.home-recharge-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.home-first-content-body{
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgb(190, 190, 190);
+    width: 98%;
+    height: 28vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.home-billsitem-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-left: 2rem;
+}
+.home-recharge-img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-mob{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+.home-viewall{
+    text-decoration: none;
+    color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+}
+.home-viewall:hover{
+    color: orangered;
+}
