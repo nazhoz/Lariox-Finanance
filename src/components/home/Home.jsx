@@ -14,7 +14,13 @@ import bulb from './images/idea.png'
 import coin from './images/coin-stack.png'
 import drcard from './images/credit-card (4).png'
 import gas from './images/gas-cylinder.png'
+import build from './images/building.png'
+import invest from './images/graph.png'
+import investmnt from './images/investment.png'
+import tick from './images/verify.png'
+import verify from './images/correct.png'
 import { Link } from 'react-router-dom'
+import HomePartOne from './HomePartOne'
 
 
 const Home = () => {
@@ -153,13 +159,54 @@ const Home = () => {
               </div>
               </div>
           </div>
+          <HomePartOne/>
         </div>
 
 
         <div className='home-scnd-content'>
+            <div className='home-card-store'>
+              <div className='home-superstore-head'>
+                <h6 className='home-super-text'>Superstores</h6>
+              </div>
+              <div className='home-superstore-imgs'>
+              <img src={build} alt="" />
+              <span className='home-bajajmall'>Bajaj Mall</span>
+              </div>
+              <div className='home-superstore-imgs'>
+              <img src={invest} alt="" />
+              <span className='home-bajajmall'>Investments</span>
+              </div>
+              <div className='home-superstore-imgs'>
+              <img src={investmnt} alt="" />
+              <span className='home-bajajmall'>insurance Mall</span>
+              </div>
+              <div className='home-superstore-imgs'>
+              <img src={tick} alt="" />
+              <span className='home-bajajmall'>Securities</span>
+              </div>
+            </div>
 
+            <div className='home-card-store'>
+              <div className='home-superstore-head'>
+                <img className='' src={verify} alt="" />
+              </div>
+              <div>
+                <h5>Savadhaan Rahein.</h5>
+                <h5>Safe Rahein.</h5>
+              </div>
+              <div className='home-verify-text'>
+              <div>
+                <span className='home-beware-text'>Beware of fraud calls/ SMSes/ emails/ fake online and print ads. Bajaj Finance never asks for advance payments for providing loans.</span>               
+              </div>
+              <div>
+              <Link className='home-knowall'>Know All</Link>
+              </div>
+              </div>
+              
+            </div>
         </div>
     </div>
+    
   )
 }
 

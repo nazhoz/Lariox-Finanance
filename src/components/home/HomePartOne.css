@@ -1,0 +1,12 @@
+#carouselExample{
+    width: 100%;
+    height: 100px;
+}
+.carousel-control-prev{
+    background-color: aqua;
+    margin-top: 15rem;
+}
+.carousel-control-next{
+    background-color: aqua;
+    margin-top: 15rem;
+}

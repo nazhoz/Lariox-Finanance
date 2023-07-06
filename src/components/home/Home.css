@@ -5,8 +5,7 @@
     width: 100%;   
 }
 .home-first-content{
-    width: 78%;
-    height: 70vh;
+    width: 85%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -18,8 +17,8 @@
     flex-direction: column;
     justify-content: space-around;
     box-shadow: 0 0 2px black;
-    width: 340px;
-    height: 180px;
+    width: 360px;
+    height: 160px;
     border-radius: 5px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFmi77veFj9u6Zb_UGTwLaAbRr4JUHF_vyqg&usqp=CAU);
 
@@ -29,8 +28,8 @@
     flex-direction: column;
     justify-content: space-around;
     box-shadow: 0 0 2px black;
-    width: 340px;
-    height: 180px;
+    width: 360px;
+    height: 160px;
     border-radius: 5px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf8NalGNySgEa-FMEi_ZDc1VRr-OWFHN6iVg&usqp=CAU);
 }
@@ -39,8 +38,8 @@
     flex-direction: column;
     justify-content: space-around;
     box-shadow: 0 0 2px black;
-    width: 340px;
-    height: 180px;
+    width: 360px;
+    height: 160px;
     border-radius: 5px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjiM_4EtX4RHr5H_QmWf6BYtlO6tiA-Ej1OA&usqp=CAU);
     
@@ -54,6 +53,8 @@
 }
 .home-main-page{
     background-color: rgba(221, 221, 221, 0.521);
+    display: flex;
+    justify-content: space-around;
     width: 100%;
 
 }
@@ -139,4 +140,59 @@
 }
 .home-viewall:hover{
     color: orangered;
+}
+.home-scnd-content{
+    width: 18%;
+    height: 128vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.home-card-store{
+    background-color: rgb(255, 255, 255);
+    height: 320px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 6px lightgrey;
+}
+.home-superstore-imgs{
+    width: 80%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    border-bottom: 1px solid lightgray;
+}
+.home-bajajmall{
+    margin-left: 1rem;
+}
+.home-superstore-head{
+    width: 88%;
+    text-align: start;
+}
+.home-super-text{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-verify-text{
+    width: 90%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.home-beware-text{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+}
+.home-knowall{
+    text-decoration: none;
+    color: black;
 }
