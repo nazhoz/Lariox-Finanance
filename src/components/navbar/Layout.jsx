@@ -159,156 +159,100 @@ const Layout = () => {
       </div>
 
     </div>
-   </ul>  
-   <div className='dropdown-main-content'>
-   <ul className='dropdown-main'>   
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Loans
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className='drop-menu-text' >All Loans</Link></li>
-        <li className="drop-menu-content" ><Link className="drop-menu-text">Personal Loans</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Bussiness Loans</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Insta Personal Loans</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Gold Loans</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Loans for Doctors</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Medical Equipments Finance</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Loan for CAs</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Commercial Lending</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Home Loans</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Loan Against Property</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Lease Rental Discounting</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Loan Against Securities</Link></li>
+   </ul> 
+   <div className='dropdown-main-box'>
+   <div className='dropdown-box-full'>
+   <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
 
-      </ul>
-    </div>
-    </div> 
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        All On EMI
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className="drop-menu-text">Electronics</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Two-Wheelers</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">LifeStyles</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Travel</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Offer & Promotions</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Shop on E-Commerce</Link></li>
-      </ul>
-    </div>
-    </div> 
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Bajaj Mall
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className="drop-menu-text">Action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Another action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Something else here</Link></li>
-      </ul>
-    </div>
-    </div> 
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Cards
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className="drop-menu-text">Air Conditioners</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Air Coolers</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Smart Phones</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Two-Wheelers</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">LED TVs</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Fans</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Smart Phones</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Smart Phones</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Smart Phones</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Smart Phones</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Smart Phones</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Smart Phones</Link></li>
-
-      </ul>
-    </div>
-    </div> 
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Investments
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className="drop-menu-text">Action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Another action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Something else here</Link></li>
-      </ul>
-    </div>
-    </div> 
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Insurance
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className="drop-menu-text">Action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Another action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Something else here</Link></li>
-      </ul>
-    </div>
-    </div> 
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Payments
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className="drop-menu-text">Action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Another action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Something else here</Link></li>
-      </ul>
-    </div>
-    </div> 
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Offers
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className="drop-menu-text">Action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Another action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Something else here</Link></li>
-      </ul>
-    </div>
-    </div> 
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Locate Us
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className="drop-menu-text">Action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Another action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Something else here</Link></li>
-      </ul>
-    </div>
-    </div> 
-    <div className="dropdown">
-      <button className="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        Services
-      </button>
-      <div>
-      <ul className="dropdown-menu">
-        <li className="drop-menu-content"><Link className="drop-menu-text">Action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Another action</Link></li>
-        <li className="drop-menu-content"><Link className="drop-menu-text">Something else here</Link></li>
-      </ul>
-    </div>
-    </div>
-   </ul>
-   <ul className='nav-drop-feed'>
-      <div className='drop-mob'>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+</div>
+<div className='drop-mob'>
         <img width={20} height={20} src={feed} alt="" />
         <span className='drop-feed-back'>FeedBack</span>
       </div>
@@ -316,9 +260,7 @@ const Layout = () => {
         <img width={20} height={20} src={mob} alt="" />
         <span className='drop-feed-back'>Download App</span>
       </div>
-   </ul>
-   </div>
-
+</div>
    <Outlet/>
 </nav>
 </div>

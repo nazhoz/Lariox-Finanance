@@ -1,12 +1,53 @@
-#carouselExample{
-    width: 100%;
-    height: 100px;
+.homepart-scnd-items{
+    display: flex;
 }
-.carousel-control-prev{
-    background-color: aqua;
-    margin-top: 15rem;
+.homepart-main-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98%;
+    height: 170px;
 }
-.carousel-control-next{
-    background-color: aqua;
-    margin-top: 15rem;
+.homepart-first-cards{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 3px grey;
+    border-radius: 7px;
+    width: 49%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+.homepart-first-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-left: 0.5rem;
+}
+.homepart-scnd-items{
+    height: 95px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.homepart-imgs{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(236, 234, 234, 0.945);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 0 4px grey;
+}
+.homepart-scnd-img{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    font-weight:bold;
+    color: grey;
 }
